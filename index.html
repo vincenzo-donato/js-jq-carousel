@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Sicilia coast to coast. Il vaccino sta arrivando, prenota un viaggio nella nostra terra. Vieni a scoprire anche tu le meraviglie della sicilia.</title>
+    </head>
+    <body>
+
+        <!-- TITOLO -->
+        <h1>Sicilia coast to coast</h1>
+        <h2> Il vaccino sta arrivando, prenota un viaggio nella nostra terra. Vieni a scoprire anche tu le meraviglie delle coste Siciliane.</h2>
+        
+        <div class="titoli-citta">
+
+            <h2 class="first active">Marsala
+                <p>Marsala è una città famosa per numerosi tesori naturali e non; La città è famosa per lo sbarco di Garibaldi e dei Mille dell'11 maggio 1860, il vino da cui prede il nome, le saline che offrono un'incantevole paesaggio. Per non parlare della possizione strateggica di Marsala che essendo esposta a i venti del mediterraneo da 3 lati offre un equilibrio ottimo per praticare sport come kitesurf e non solo.</p>
+            </h2>
+
+            <h2>Palermo <br>
+                <p>Palermo è il capoluogo della Sicilia. La Cattedrale di Palermo, del XII secolo, ospita tombe reali, mentre l'imponente Teatro Massimo neoclassico è famoso per gli spettacoli di opera lirica. Sempre in centro si trovano il Palazzo dei Normanni, un palazzo reale risalente al IX secolo, e la Cappella Palatina, con mosaici bizantini. Gli affollati mercati includono il mercato di strada centrale Ballarò e la Vucciria offrono numerose prelibatezze culinarie e il paesaggio marittimo è uno dei più visitati.</p>
+            </h2>
+
+            <h2>Siracusa
+                <p>Siracusa è una città sulla costa ionica della Sicilia. È nota per le rovine dell'antichità. Il centrale Parco Archeologico della Neapolis racchiude l'anfiteatro romano, il Teatro Greco e l'Orecchio di Dionisio, una grotta scavata nel calcare a forma di orecchio umano. Il Museo Archeologico Regionale Paolo Orsi espone reperti in terracotta, ritratti di epoca romana e scene dell'Antico Testamento scolpite nel marmo bianco.</p>
+            </h2>
+
+            <h2 class="last">Agrigento
+                <p>Agrigento è una città collinare sulla costa sudoccidentale della Sicilia. È nota per le rovine dell'antica città di Akragas e la Valle dei Templi, un vasto sito archeologico con templi greci ben conservati. Nella periferia della città moderna si trova il Museo archeologico regionale di Agrigento che ospita manufatti e un telamone (statua maschile gigante). A ovest, è situata la Scala dei Turchi, un'insolita scogliera bianca a scalini che si affaccia su spiagge sabbiose</p>
+            </h2>
+
+            <!-- BOTTONE PER PRENOTARE -->
+            <button>Prenota</button>
+
+        </div>
+
+        <!-- AREA TESTO PER PRENOTARE -->
+        <div class="prenota-slider">
+            <input type="text" name="" id="" placeholder="Luogo di Partenza">
+            <input type="text" name="" id="" placeholder="Luogo Destinazione">
+            <button id="conferma">Conferma</button>
+        </div>
+        
+        <!-- CONTAINER PER IMMAGINI E PULSANTI -->
+        <div class="container">
+
+            <!-- CONTENITORE IMG E PUL  -->
+            <div class="slider-wrapper">
+
+                <!-- PULSANTE PREV  -->
+                <div class="prev">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <!-- / PULSANTE PREV  -->
+                
+                <!-- START IMG  -->
+                <div class="images">
+                    <img class="active first" src="img/marsala.jpg" alt="marsala">
+                    <img src="img/palermo.jpg" alt="palermo">
+                    <img src="img/siracusa.jpg" alt="siracusa">
+                    <img class="last" src="img/Agrigento.jpg" alt="agrigento">
+                </div>
+                <!-- END IMG -->
+
+                <!-- PULSANTE NEXT  -->
+                <div class="next">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+                <!-- / PULSANTE NEXT  -->
+
+                <!-- CONTENITORE PALLINI  -->
+                <div class="nav">
+                    <i class="fas fa-circle active first"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle last"></i>
+                </div>
+                <!-- / CONTENITORE PALLINI  -->
+
+            </div>
+            <!-- / CONTENITORE IMG E PUL  -->
+
+        </div>
+        <!-- / CONTAINER PER IMMAGINI E PULSANTI -->
+
+        <!-- DIV MAPPA SICILIA  -->
+        <div class="mappa">
+
+            <!-- CONTENITORE PALLINI  -->
+            <div class="nav-mappa">
+                <i class="fas fa-circle active first"></i>
+                <i class="fas fa-circle second"></i>
+                <i class="fas fa-circle third"></i>
+                <i class="fas fa-circle last"></i>
+            </div>
+            <!-- / CONTENITORE PALLINI  -->
+
+            <img src="img/SICILIA.jpg" alt="sicilia">
+        </div>
+        <!-- / DIV MAPPA SICILIA  -->
+
+        <!-- COLLEGAMENTO SCRIPT  -->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
